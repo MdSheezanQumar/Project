@@ -40,7 +40,7 @@ function App() {
       
       <Routes>
         
-      <Route path='/' element={<Login/>}></Route>
+      <Route path='/Project' element={<Login/>}></Route>
       <Route path="/dashboard" element={<Dashboard/>}></Route>
 
       <Route path='/empcreate' element={<Employee_create/>}></Route>
