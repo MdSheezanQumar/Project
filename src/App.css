@@ -1,0 +1,181 @@
+.App{
+  display: flex;
+}
+
+
+.log{
+  background-image: linear-gradient( 109.7deg,  rgba(101,204,184,1) 12.9%, rgba(109,236,185,1) 101.5% );
+}
+
+
+/*........dashboard.....*/
+
+
+.dash{
+  display: flexbox;
+  margin-top: 15%;
+  margin-right: 7%;
+  box-shadow:2px 2px 2px 2px rgb(216, 224, 224);
+  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+
+.color_div1,.color_div2,.color_div3{
+  height: 7px;
+  border-radius: 20px;
+}
+.dashboard_percentage1,.dashboard_percentage2,.dashboard_percentage3{
+  display: block;
+  height: 100%;
+}
+.color_div1{
+  border:  solid 0.5px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+}
+.color_div2{
+  border: solid 0.5px;
+  background-image: radial-gradient( circle 325px at 19.2% 64.8%,  rgba(254,62,101,1) 9.7%, rgba(166,24,146,1) 91.3% );
+}
+.color_div3{
+  border:  solid 0.5px;
+  background-image: linear-gradient( 63.1deg,  rgba(5,23,111,1) 16.4%, rgba(24,95,240,1) 64.5% );
+}
+.dashboard_percentage1{
+  background-color: skyblue;
+  width: 25%;
+
+}
+.dashboard_percentage2{
+  width: 0%;
+  border: red solid 0.5px;
+}
+.dashboard_percentage3{
+  background-color: orange;
+  width: 25%;
+  border: orange solid 0.5px;
+}
+
+
+
+.dash1{
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+
+.dash2{
+  background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+}
+
+
+.dash3{
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+
+.bot1{
+  background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+}
+
+.bot2{
+  background-image: radial-gradient( circle 879px at 10.4% 22.3%,  rgba(255,235,238,1) 0%, rgba(186,190,245,1) 93.6% );
+}
+
+.bot3{
+  background-image: linear-gradient( 109.6deg,  rgba(204,228,247,1) 11.2%, rgba(237,246,250,1) 100.2% );
+}
+
+.bot4{
+  background-image: radial-gradient( circle 1091px at 106.5% 111.5%,  rgba(250,246,213,1) 0.1%, rgba(218,147,93,1) 42.2%, rgba(137,86,67,1) 74.3%, rgba(67,39,39,1) 100.2% );
+}
+
+
+/*.......sidenavbar....*/
+
+.sidenav{
+  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+
+/*....Employee_create....*/
+
+.first{
+  background-image: linear-gradient( 123.5deg,  rgba(244,219,251,1) 29.3%, rgba(255,214,214,1) 67.1% );
+  box-shadow: 3px 3px 3px 3px rgb(167, 160, 160);
+}
+.empimport{
+  border:none;
+  border-bottom: 1.5px solid black;
+}
+.formlabel label{
+  display: block;
+}
+p{
+  columns: 50px 1;
+}
+
+/*....Employee_list....*/
+
+.tab1{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.bt1{
+  margin-left: 35%;
+}
+
+
+/*....Employee_import....*/
+
+.form1{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+
+/*....Employee_import....*/
+
+.tab2{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.bt2{
+  margin-left: 35%;
+}
+
+/*....Employee_import....*/
+
+.tab3{
+  margin-left: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+}
+
+
+
+/*.........attendance imports...........*/
+
+.form2{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
+
+/*.........attendance_verification...........*/
+
+.ver1{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+}
+
+/*.........payslip...........*/
+
+.ver2{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+}
+
+
+/*.........taxfile...........*/
+
+.form3{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+}
